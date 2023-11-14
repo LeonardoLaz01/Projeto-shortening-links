@@ -32,13 +32,11 @@ body {
     font-size: 18px;
     max-width: 1440px;
     min-width: 375px;
-    margin-left: auto;
-    margin-top: 50px;
+    margin-left: 400px;
+    margin-top: 60px;
 }
 
-header {
-
-}
+/*Header*/
 
 #logo {
     display: inline-block;
@@ -46,22 +44,74 @@ header {
 
 nav {
     position: relative;
-    top: -10px;
+    top: -11px;
     display: inline-block;
-    padding-left: 20px;
+    padding-left: 30px;
     color: var(--cor5);
-    font-size: 15px;
-    margin-right: 250px;
+    font-size: 14px;
+    margin-right: 470px;
 }
 
 nav > a {
-    padding: 10px;
+    padding: 15px;
 }
 
 header > button {
     position: relative;
-    top: -10px;
+    top: -11px;
     background-color: white;
     border: none;
+    font-size: 16px;
+    margin: 10px;
+    font-family: var(--fonte-destaque);
 }
 
+#login {
+    color: var(--cor5);
+}
+
+#signup {
+    background-color: var(--cor1);
+    color: white;
+    border-radius: 20px;
+    padding: 7px 25px;
+}
+
+/*Main*/
+
+/*Primeira section*/
+
+#primeira {
+
+}
+
+#imagem-grande {
+    position: relative;
+    bottom: 280px;
+    left: 200px;
+}
+
+#primeira > h1{
+    font-size: 4.4em;
+    width: 700px;
+    line-height: 1.1em;
+    margin-top: 43px;
+}
+
+#primeira > p {
+    width: 500px;
+    color: var(--cor5);
+    padding-top: 40px;
+}
+
+#primeira > button {
+    background-color: var(--cor1);
+    color: white;
+    border: none;
+    font-family: var(--fonte-destaque);
+    padding: 15px 42px;
+    border-radius: 30px;
+    font-size: 20px;
+    position: relative;
+    top: -410px;
+}
