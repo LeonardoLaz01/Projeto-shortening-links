@@ -8,6 +8,8 @@
     --font-weight-regular: 500;
     --font-weight-bold: 700;
 
+    /*Cores*/
+
     /*Primárias*/
     --cor1: hsl(180, 66%, 49%);
     --cor2: hsl(257, 27%, 26%);
@@ -30,13 +32,14 @@
 body {
     font-family: var(--fonte-destaque);
     font-size: 18px;
-    max-width: 1440px;
-    min-width: 375px;
-    margin-left: 400px;
     margin-top: 60px;
 }
 
 /*Header*/
+
+header {
+    margin-left: 400px;
+}
 
 #logo {
     display: inline-block;
@@ -79,32 +82,32 @@ header > button {
 
 /*Main*/
 
-/*Primeira section*/
+/*Primeira sessão*/
 
-#primeira {
-
+#primeira-sessão {
+    margin-left: 400px;
 }
 
 #imagem-grande {
     position: relative;
     bottom: 280px;
-    left: 200px;
+    left: 350px;
 }
 
-#primeira > h1{
+#primeira-sessão > h1{
     font-size: 4.4em;
     width: 700px;
     line-height: 1.1em;
     margin-top: 43px;
 }
 
-#primeira > p {
+#primeira-sessão > p {
     width: 500px;
     color: var(--cor5);
     padding-top: 40px;
 }
 
-#primeira > button {
+#primeira-sessão > button {
     background-color: var(--cor1);
     color: white;
     border: none;
@@ -115,3 +118,18 @@ header > button {
     position: relative;
     top: -410px;
 }
+
+/*Segunda sessão*/
+
+#encurtador-box {
+    background-image: url(../images/bg-boost-desktop.svg);
+    background-color: #3B3054;
+    width: 1300px;
+    height: 200px;
+    margin-left: 300px;
+}
+
+#segunda-sessão {
+    background-color: #F0F1F6;
+}
+
