@@ -86,6 +86,7 @@ header > button {
 
 #primeira-sessão {
     margin-left: 400px;
+    height: 550px;
 }
 
 #imagem-grande {
@@ -119,15 +120,46 @@ header > button {
     top: -410px;
 }
 
-/*Segunda sessão*/
+/*Caixa encurtador de link*/
 
 #encurtador-box {
-    background-image: url(../images/bg-boost-desktop.svg);
+    background-image: url(../images/bg-shorten-desktop.svg);
     background-color: #3B3054;
-    width: 1300px;
-    height: 200px;
-    margin-left: 300px;
+    width: 1100px;
+    height: 160px;
+    margin-left: 400px;
+    border-radius: 10px;
+    position: relative;
 }
+
+#shorten-link-here {
+    width: 770px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    font-size: 20px;
+    font-family: var(--fonte-destaque);
+    padding-left: 30px;
+}
+
+#shorten-it {
+    margin-left: 20px;
+    height: 60px;
+    width: 160px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    background-color: var(--cor1);
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-weight: var(--font-weight-regular);
+    font-size: 20px;
+}
+
+/*Segunda sessão*/
 
 #segunda-sessão {
     background-color: #F0F1F6;
