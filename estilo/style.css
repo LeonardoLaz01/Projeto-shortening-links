@@ -32,13 +32,13 @@
 body {
     font-family: var(--fonte-destaque);
     font-size: 18px;
-    margin-top: 60px;
 }
 
 /*Header*/
 
 header {
-    margin-left: 400px;
+    margin-left: 300px;
+    padding-top: 50px;
 }
 
 #logo {
@@ -49,14 +49,15 @@ nav {
     position: relative;
     top: -11px;
     display: inline-block;
-    padding-left: 30px;
+    padding-left: 27px;
     color: var(--cor5);
-    font-size: 14px;
-    margin-right: 470px;
+    font-size: 15px;
+    margin-right: 670px;
+    font-weight: bold;
 }
 
 nav > a {
-    padding: 15px;
+    padding: 12px;
 }
 
 header > button {
@@ -67,6 +68,7 @@ header > button {
     font-size: 16px;
     margin: 10px;
     font-family: var(--fonte-destaque);
+    font-weight: bold;
 }
 
 #login {
@@ -85,27 +87,30 @@ header > button {
 /*Primeira sessão*/
 
 #primeira-sessão {
-    margin-left: 400px;
+    margin-left: 300px;
     height: 550px;
 }
 
 #imagem-grande {
     position: relative;
-    bottom: 280px;
-    left: 350px;
+    bottom: 330px;
+    left: 570px;
 }
 
 #primeira-sessão > h1{
     font-size: 4.4em;
     width: 700px;
     line-height: 1.1em;
-    margin-top: 43px;
+    margin-top: 150px;
+    color: #35323E;
 }
 
 #primeira-sessão > p {
-    width: 500px;
+    width: 570px;
     color: var(--cor5);
-    padding-top: 40px;
+    padding-top: 10px;
+    font-size: 21px;
+    font-weight: 100;
 }
 
 #primeira-sessão > button {
@@ -117,7 +122,7 @@ header > button {
     border-radius: 30px;
     font-size: 20px;
     position: relative;
-    top: -410px;
+    top: -400px;
 }
 
 /*Caixa encurtador de link*/
@@ -163,5 +168,24 @@ header > button {
 
 #segunda-sessão {
     background-color: #F0F1F6;
+    height: 900px;
+}
+
+#advanced-statistics {
+    padding-top: 150px;
+    padding-left: 40px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+#advanced-statistics h2 {
+    font-size: 40px;
+    color: #35323E;
+}
+
+#advanced-statistics p {
+    color: var(--cor5);
+    width: 530px;
+    padding-left: 670px;
 }
 
