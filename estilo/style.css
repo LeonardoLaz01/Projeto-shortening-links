@@ -204,7 +204,12 @@ header > button {
     border-radius: 5px;
 }
 
+.box h3 {
+    padding-top: 20px;
+}
+
 .box p {
+    padding-top: 10px;
     color: gray;
     font-size: 14px;
 }
