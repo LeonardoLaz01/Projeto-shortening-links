@@ -93,8 +93,8 @@ header > button {
 
 #imagem-grande {
     position: relative;
-    bottom: 330px;
     left: 570px;
+    top: -170px;
 }
 
 #primeira-sessão > h1{
@@ -137,6 +137,8 @@ header > button {
     margin-left: 300px;
     border-radius: 10px;
     position: relative;
+    top: 80px;
+    
 }
 
 #shorten-link-here {
@@ -175,7 +177,7 @@ header > button {
 }
 
 #advanced-statistics {
-    padding-top: 130px;
+    padding-top: 190px;
     padding-left: 40px;
     padding-bottom: 150px;
     text-align: center;
@@ -308,6 +310,7 @@ footer ul li {
 
 #icones-div {
     display: block;
+    padding-left: 90px;
 }
 
 #icones-div a{
