@@ -37,8 +37,9 @@ body {
 /*Header*/
 
 header {
-    margin-left: 300px;
     padding-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 #logo {
@@ -56,11 +57,11 @@ nav {
     font-weight: bold;
 }
 
-nav > a {
+nav  a {
     padding: 12px;
 }
 
-header > button {
+header div button {
     position: relative;
     top: -11px;
     background-color: white;
@@ -79,7 +80,7 @@ header > button {
     background-color: var(--cor1);
     color: white;
     border-radius: 20px;
-    padding: 7px 25px;
+    padding: 6px 24px;
 }
 
 /*Main*/
@@ -87,17 +88,13 @@ header > button {
 /*Primeira sessão*/
 
 #primeira-sessão {
-    margin-left: 300px;
-    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-#imagem-grande {
-    position: relative;
-    left: 570px;
-    top: -170px;
-}
-
-#primeira-sessão > h1{
+#primeira-sessão h1{
     font-size: 4.4em;
     width: 700px;
     line-height: 1.1em;
@@ -105,7 +102,7 @@ header > button {
     color: #35323E;
 }
 
-#primeira-sessão > p {
+#primeira-sessão p {
     width: 570px;
     color: var(--cor5);
     padding-top: 10px;
@@ -113,7 +110,7 @@ header > button {
     font-weight: 100;
 }
 
-#primeira-sessão > button {
+#primeira-sessão  button {
     background-color: var(--cor1);
     color: white;
     border: none;
@@ -121,8 +118,6 @@ header > button {
     padding: 15px 42px;
     border-radius: 30px;
     font-size: 20px;
-    position: relative;
-    top: -400px;
 }
 
 /*Caixa encurtador de link*/
@@ -136,9 +131,6 @@ header > button {
     height: 160px;
     margin-left: 300px;
     border-radius: 10px;
-    position: relative;
-    top: 80px;
-    
 }
 
 #shorten-link-here {
@@ -173,26 +165,28 @@ header > button {
 #segunda-sessão {
     background-color: #F0F1F6;
     height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
 #advanced-statistics {
-    padding-top: 190px;
-    padding-left: 40px;
     padding-bottom: 150px;
-    text-align: center;
 }
 
 #advanced-statistics h2 {
     font-size: 40px;
     color: #35323E;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 #advanced-statistics p {
     color: var(--cor5);
     width: 530px;
-    padding-left: 670px;
+    text-align: center;
 }
 
 #container {
@@ -276,16 +270,12 @@ footer {
     height: 350px;
     color: white;
     display: flex;
+    justify-content: center;
 }
 
 footer div {
     padding: 60px;
 }
-
-#shortly-image{
-    padding-left: 250px;
-}
-
 
 footer ul {
     list-style-type: none;
