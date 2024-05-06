@@ -91,23 +91,29 @@ header div button {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    height: 545px;
 }
 
 #primeira-sessão h1{
-    font-size: 4.4em;
+    font-size: 4.3em;
     width: 700px;
     line-height: 1.1em;
     margin-top: 150px;
     color: #35323E;
+    position: relative;
+    right: 190px;
+    top: 170px;
 }
 
 #primeira-sessão p {
     width: 570px;
     color: var(--cor5);
     padding-top: 10px;
-    font-size: 21px;
+    font-size: 22px;
     font-weight: 100;
+    position: relative;
+    right: 190px;
+    top: 175px;
 }
 
 #primeira-sessão  button {
@@ -118,6 +124,16 @@ header div button {
     padding: 15px 42px;
     border-radius: 30px;
     font-size: 20px;
+    position: relative;
+    top: -240px;
+    right: 195px;
+
+}
+
+#imagem-grande{
+    position: relative;
+    right: -370px;
+    top: -145px;
 }
 
 /*Caixa encurtador de link*/
@@ -129,8 +145,9 @@ header div button {
     background-color: #3B3054;
     width: 1300px;
     height: 160px;
-    margin-left: 300px;
     border-radius: 10px;
+    position: relative;
+    top: 90px
 }
 
 #shorten-link-here {
@@ -158,6 +175,11 @@ header div button {
     font-family: var(--fonte-destaque);
     font-weight: bold;
     font-size: 20px;
+}
+
+#encurtador{
+    display: flex;
+    justify-content: center;
 }
 
 /*Segunda sessão*/
@@ -246,12 +268,12 @@ header div button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 2em;
+    font-size: 2.1em;
     font-weight: bold;
 }
 
 #boost-your-links-today button {
-    margin-top: 15px;
+    margin-top: 25px;
     background-color: var(--cor1);
     color: white;
     height: 60px;
